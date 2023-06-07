@@ -5,12 +5,12 @@ require('dotenv').config()
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: `${process.env.local.FIREBASE_API_KEY}`,
-	authDomain: `${process.env.local.FIREBASE_AUTH_DOMAIN}`,
-	projectId: `${process.env.local.FIREBASE_PROJECT_ID}`,
-	storageBucket: `${process.env.local.FIREBASE_STORAGEBUCKET}`,
-	messagingSenderId: `${process.env.local.FIREBASE_MESSAGINGSENDERID}`,
-	appId: `${process.env.local.FIREBASE_APP_ID}`,
+	apiKey: `${process.env.FIREBASE_API_KEY}`,
+	authDomain: `${process.env.FIREBASE_AUTH_DOMAIN}`,
+	projectId: `${process.env.FIREBASE_PROJECT_ID}`,
+	storageBucket: `${process.env.FIREBASE_STORAGEBUCKET}`,
+	messagingSenderId: `${process.env.FIREBASE_MESSAGINGSENDERID}`,
+	appId: `${process.env.FIREBASE_APP_ID}`,
 }
 
 // Initialize Firebase

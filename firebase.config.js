@@ -5,11 +5,11 @@ import { getAuth } from 'firebase/auth'
 // Your web app's Firebase configuration
 const firebaseConfig = {
 	apiKey: `${process.env.FIREBASE_API_KEY}`,
-	authDomain: `${process.env.AUTH_DOMAIN}`,
-	projectId: `${process.env.PROJECTID}`,
-	storageBucket: `${process.env.STORAGEBUCKET}`,
-	messagingSenderId: `${process.env.MESSAGINGSENDERID}`,
-	appId: `${process.env.APPID}`,
+	authDomain: `${process.env.FIREBASE_AUTH_DOMAIN}`,
+	projectId: `${process.env.FIREBASE_PROJECT_ID}`,
+	storageBucket: `${process.env.FIREBASE_STORAGEBUCKET}`,
+	messagingSenderId: `${process.env.FIREBASE_MESSAGINGSENDERID}`,
+	appId: `${process.env.FIREBASE_APP_ID}`,
 }
 
 // Initialize Firebase

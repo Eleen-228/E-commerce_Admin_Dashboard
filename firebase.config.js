@@ -11,6 +11,7 @@ const firebaseConfig = {
 	messagingSenderId: `${process.env.NEXT_PUBLIC_FIREBASE_MESSAGINGSENDERID}`,
 	appId: `${process.env.NEXT_PUBLIC_FIREBASE_APP_ID}`,
 }
+console.log(firebaseConfig)
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
